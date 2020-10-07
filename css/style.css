@@ -13,3 +13,69 @@
 .debug section {
   border: 1px solid black;
 }
+
+/* GENERIC */
+
+.ghost-align::before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.std_button {
+  color: #0269FF;
+  border: 1px solid #0269FF;
+}
+
+.blue {
+  color: #0269FF;
+}
+
+/* NAVBAR */
+
+nav {
+  background-color: #FFFFFF;
+}
+
+nav [class*="col-"] {
+  height: 50px;
+  line-height: 50px;
+}
+
+nav img {
+  width: 150px;
+}
+
+nav .menu > li {
+  display: inline-block;
+}
+
+nav .menu > li > a:not(.std_button) {
+  color: black;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* JUMBOTRON */
+
+
+/* SECTION 2 */
+
+
+/* SECTION 3 */
+
+
+/* SECTION 4 */
+
+
+/* SECTION 5 */
+
+
+/* SECTION 6 */
+
+
+/* SECTION 7 */
+
+
+/* FOOTER */
