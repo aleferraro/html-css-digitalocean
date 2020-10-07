@@ -32,6 +32,14 @@
   color: #0269FF;
 }
 
+.white {
+  color: white;
+}
+
+.lightgrey {
+  color: #B7CAFF;
+}
+
 /* NAVBAR */
 
 nav {
@@ -59,6 +67,37 @@ nav .menu > li > a:not(.std_button) {
 
 /* JUMBOTRON */
 
+header .jumbotron {
+  background-image: url('../img/bg-home-hero.svg');
+  margin-top: 50px;
+}
+
+header .jumbotron .card {
+  background-color: white;
+  color: #031C4E;
+  border-radius: 5px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+header .jumbotron .card > form {
+  margin: 2rem;
+}
+
+.form_button {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.account_button {
+  background-color: #579AFF;
+}
+
+form > a {
+  text-decoration: underline;
+}
 
 /* SECTION 2 */
 
