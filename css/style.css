@@ -16,6 +16,15 @@
 
 /* GENERIC */
 
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+a {
+  color: #1676FE;
+}
+
 .ghost-align::before {
   content: '';
   height: 100%;
@@ -29,6 +38,10 @@
 }
 
 .blue {
+  color: #031C4E;
+}
+
+.lightblue {
   color: #0269FF;
 }
 
@@ -36,8 +49,16 @@
   color: white;
 }
 
+.grey {
+  color: #737E9A;
+}
+
 .lightgrey {
   color: #B7CAFF;
+}
+
+.bg-lightgrey {
+  background-color: #F3F5F9;
 }
 
 /* NAVBAR */
@@ -70,11 +91,11 @@ nav .menu > li > a:not(.std_button) {
 header .jumbotron {
   background-image: url('../img/bg-home-hero.svg');
   margin-top: 50px;
+  margin-bottom: 0;
 }
 
 header .jumbotron .card {
   background-color: white;
-  color: #031C4E;
   border-radius: 5px;
   padding-top: 2rem;
   padding-bottom: 2rem;
