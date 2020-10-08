@@ -122,6 +122,18 @@ form > a {
 
 /* SECTION 2 */
 
+#section2 .menu {
+  list-style: none;
+}
+
+#section2 .menu > li {
+  border-left: 1px solid #737E9A;
+  padding: 15px;
+}
+
+#section2 .menu > li > a {
+  color: #737E9A;
+}
 
 /* SECTION 3 */
 
@@ -139,3 +151,11 @@ form > a {
 
 
 /* FOOTER */
+
+
+@media screen and (max-width: 991px) {
+  #section2 .menu {
+    padding-left: 0;
+  }
+
+}
