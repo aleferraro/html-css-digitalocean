@@ -208,6 +208,35 @@ footer {
   padding-bottom: 5rem;
 }
 
+footer img {
+  margin-bottom: 1rem;
+}
+
+footer .lightcolor {
+  color: #596886;
+}
+
+footer i {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer .menu {
+  padding-left: 0;
+}
+
+footer .menu > li {
+  list-style: none;
+}
+
+footer .menu > li > a {
+  color: #737E9A;
+}
+
+footer .menu > li > a.white {
+  color: white;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (max-width: 991px) {
