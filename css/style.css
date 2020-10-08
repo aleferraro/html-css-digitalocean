@@ -192,12 +192,23 @@ form > a {
 /* SECTION 7 */
 
 #section7 {
-  background-color: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,72,197,1) 100%);
+  background: linear-gradient(#0042BB, #00209B);
+}
+
+#section7 .std_button {
+  background-color: white;
+  border-color: white;
 }
 
 /* FOOTER */
 
+footer {
+  background-color: #031C4E;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* MEDIA QUERY */
 
 @media screen and (max-width: 991px) {
   #section2 .menu {
